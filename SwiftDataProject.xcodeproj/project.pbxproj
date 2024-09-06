@@ -11,6 +11,9 @@
 		BE2B50CD2C8402E300310286 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B50CC2C8402E300310286 /* ContentView.swift */; };
 		BE2B50CF2C8402E500310286 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2B50CE2C8402E500310286 /* Assets.xcassets */; };
 		BE2B50D22C8402E500310286 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE2B50D12C8402E500310286 /* Preview Assets.xcassets */; };
+		BE2B50D92C84032800310286 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2B50D82C84032800310286 /* User.swift */; };
+		BE4E0ABD2C8A96FB009F439E /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E0ABC2C8A96FB009F439E /* UsersView.swift */; };
+		BE4E0ABF2C8B6CAC009F439E /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4E0ABE2C8B6CAC009F439E /* Job.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		BE2B50CC2C8402E300310286 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BE2B50CE2C8402E500310286 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE2B50D12C8402E500310286 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE2B50D82C84032800310286 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		BE4E0ABC2C8A96FB009F439E /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		BE4E0ABE2C8B6CAC009F439E /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				BE2B50CA2C8402E300310286 /* SwiftDataProjectApp.swift */,
 				BE2B50CC2C8402E300310286 /* ContentView.swift */,
+				BE4E0ABC2C8A96FB009F439E /* UsersView.swift */,
+				BE2B50D82C84032800310286 /* User.swift */,
+				BE4E0ABE2C8B6CAC009F439E /* Job.swift */,
 				BE2B50CE2C8402E500310286 /* Assets.xcassets */,
 				BE2B50D02C8402E500310286 /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				BE2B50CD2C8402E300310286 /* ContentView.swift in Sources */,
 				BE2B50CB2C8402E300310286 /* SwiftDataProjectApp.swift in Sources */,
+				BE2B50D92C84032800310286 /* User.swift in Sources */,
+				BE4E0ABD2C8A96FB009F439E /* UsersView.swift in Sources */,
+				BE4E0ABF2C8B6CAC009F439E /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

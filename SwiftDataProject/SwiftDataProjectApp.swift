@@ -13,5 +13,7 @@ struct SwiftDataProjectApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: User.self)
+        // don't need modelContainer for Job since User is linked (relies on) Job so SwiftUI handles it for us
     }
 }
